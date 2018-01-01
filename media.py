@@ -1,10 +1,11 @@
 # encoding: utf-8
-
+'''
+媒体信息类型
+'''
 class Movie:
     ''' 电影类型 '''
-    def __init__(self,name,poster,url):
-        self.name = name
-        self.poster = poster
-        self.url = url
+    def __init__(self,title,poster_image_url,trailer_url):
+        self.title = title
+        self.poster_image_url = poster_image_url
+        self.trailer_url = trailer_url # 预告片地址
 
-Movie movie = Movie('Book','http://www.url.com/1.jpg','http')
